@@ -1,0 +1,101 @@
+.hero {
+    background-image: url("Bilder - Om Meg Selv/alberteinstein.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.hero H1 {
+    background-color: rgba(0, 0, 0, 0.30);
+    border: #f9f9f9, solid, 7px;
+    color: #f9f9f9;
+    padding: 50px;
+    border-radius: 100px;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 100px;
+    text-align: center;
+}
+
+.hero .underoverskrift {
+    font-size: 75px;
+}
+
+.fullscreen {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.fullscreen div {
+    padding: 20px;
+    border-radius: 20px;
+    flex: 1;
+}
+
+.andre .fullscreen {
+    gap: 0px;
+    height: calc(100%/2);
+}
+
+.tredje .fullscreen {
+    gap: 0px;
+    height: calc(100%/2);
+    background-size: cover;
+    background-position: center;
+}
+
+.bildeboks {
+    max-width: 300px;
+    padding: 20px;
+    margin-top: -150px;
+}
+
+.bildeboks img {
+    border-radius: 20px;
+}
+
+#blå {
+    background-color: #6F9FB5;
+}
+
+#blå div {
+    background-color: #6F9FB5;
+}
+
+#grønn {
+    background-color: #6F9B7D;
+}
+
+#grønn div {
+    background-color: #6F9B7D;
+    max-width: 420px;
+    margin-top: -175px;
+}
+
+#lilla {
+    background-color: #9275A5;
+}
+
+#lilla div {
+    background-color: #9275A5;
+}
+#forstor{
+    max-width: 250px;
+}
+#beige {
+    background-color: #B0956F;
+}
+
+#beige div {
+    background-color: #B0956F;
+    max-width: 420px;
+    margin-top: -175px;
+    flex: 1;
+}

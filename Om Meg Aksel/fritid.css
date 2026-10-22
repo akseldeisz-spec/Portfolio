@@ -1,0 +1,134 @@
+.hero {
+    background-image: url("Bilder - Om Meg Selv/slovenia.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.hero H1 {
+    background-color: rgba(0, 0, 0, 0.30);
+    border: #2c3910, double, 10px;
+    color: #e2eff7;
+    padding: 50px;
+    border-radius: 100px;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 100px;
+    text-align: center;
+}
+
+.hero .underoverskrift {
+    font-size: 75px;
+    color: #cdc670;
+}
+
+.andre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.andre H1 {
+    padding: 50px;
+    border-radius: 100px;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 70px;
+    font-family: "Fira Sans", sans-serif;
+    color:rgba(255, 255, 255, 1);
+    margin: 20px;
+}
+.andre .fullscreen{
+    gap: 0px;
+    height: calc(100%/3);
+    background-size: cover;
+    background-position: center;
+}
+#NewYork{
+    background-image: url("Bilder - Om Meg Selv/newyork.jpeg");
+}
+#Spania{
+    background-image: url("Bilder - Om Meg Selv/spania.png");
+}
+#SanFrancisco{
+    background-image: url("Bilder - Om Meg Selv/goldengate.png");
+}
+
+.fullscreen {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.fullscreen div {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(226 108 50 / 70%);
+}
+
+
+.andre .tekstboks {
+    color: #003478;
+}
+
+.bildeboks {
+    max-width: 350px;
+}
+
+.bildeboks img {
+    border-radius: 20px;
+}
+
+.tredje img {
+    border: black, solid, 3px;
+}
+
+
+.tredje {
+    background-image: url("Bilder - Om Meg Selv/basketball.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    color: black;
+    text-align: center;
+}
+
+.tredje H1 {
+    padding: 50px;
+    border-radius: 100px;
+    background-color: rgb(226 108 50 / 70%);
+    font-size: 70px;
+    font-family: "Playpen Sans", cursive;
+    border: black, double, 15px;
+}
+
+.tredje div {
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.tredje .tekstboks {
+    background-color: rgb(226 108 50 / 70%);
+    border: black, solid, 5px;
+}
+
+.tredje .bildeboks {
+    max-width: 400px;
+    background-color: rgb(226 108 50 / 70%);
+    border: black, solid, 5px;
+}
+
+.bortfranettsiden {
+    color: black;
+}

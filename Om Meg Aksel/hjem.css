@@ -1,0 +1,110 @@
+.hero {
+    background-image: url("Bilder - Om Meg Selv/glacier.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.hero H1 {
+    background-color: rgba(0, 0, 0, 0.30);
+    border: #015689, double, 10px;
+    color: #acd0e2;
+    padding: 50px;
+    border-radius: 100px;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 100px;
+    text-align: center;
+
+}
+
+.hero .underoverskrift {
+    font-size: 75px;
+}
+
+.andre {
+    background-color: #003478;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+}
+
+.andre H1 {
+    padding: 50px;
+    border-radius: 100px;
+    background-color: rgba(255, 255, 255, 0.50);
+    font-size: 100px;
+    font-family: "Fira Sans", sans-serif;
+    color: #003478;
+}
+
+.fullscreen {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    background-color: none;
+}
+
+.fullscreen div {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.50);
+}
+
+.andre .tekstboks {
+    color: #003478;
+}
+
+.bildeboks{
+    max-width: 350px;
+}
+
+.tekstoverskrift {
+    font-size: 40px;
+    text-align: center;
+}
+
+.bildeboks img {
+    border-radius: 20px;
+}
+
+
+.tredje {
+    background-image: url("Bilder - Om Meg Selv/balder.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 20px;
+    color:rgb(255, 220, 173);
+}
+
+.tredje H1{
+    padding: 50px;
+    border-radius: 100px;
+    background-color: rgba(102, 149, 181, 0.7);
+    font-size: 70px;
+    font-family:"Playpen Sans", cursive;
+    border: #64635c, double, 15px;
+}
+
+.tredje div{
+    padding: 20px;
+    border-radius: 20px;
+}
+.tredje .tekstboks{
+    background-color: rgba(102, 149, 181, 0.7);
+    border: #64635c, solid, 5px;
+}

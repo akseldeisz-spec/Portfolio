@@ -1,0 +1,121 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+body {
+    background-color: #172A3A;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+p {
+    font-family: "Fira Sans", sans-serif;
+}
+
+header {
+    background-color: #172A3A;
+    height: 10vh;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Playpen Sans", cursive;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    overflow: hidden;
+}
+
+header a {
+    text-decoration: none;
+    padding: 18px;
+    border-radius: 20px;
+    color: white;
+}
+
+header p {
+    padding: 18px;
+    border-radius: 20px;
+    width: 240px;
+}
+
+.HeaderTekst {
+    padding: 18px;
+    text-align: center;
+}
+
+.HeaderTekst .Pop-Up {
+    display: none;
+}
+
+.HeaderTekst:hover .Vanlig {
+    display: none;
+}
+
+.HeaderTekst:hover .Pop-Up {
+    display: inline;
+}
+
+.HeaderTekst:hover {
+    background-color: white;
+    color: #172A3A;
+    font-family: "Lavishly Yours", cursive;
+}
+
+header a:hover {
+    background-color: white;
+    color: #172A3A;
+}
+
+footer {
+    background-color: #172A3A;
+    height: 7.5vh;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Playpen Sans", cursive;
+    color: white;
+    font-size: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
+
+footer a:hover {
+    background-color: white;
+    color: #172A3A;
+}
+
+section {
+    height: 82.5vh;
+    scroll-margin-top: 10vh;
+}
+
+.bildeboks {
+    transition: 0.5s;
+}
+
+.bildeboks:hover {
+    transform: scale(1.5);
+}
